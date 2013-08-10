@@ -28,6 +28,12 @@ public class NeuralNetwork {
         this.layers = layers;
     }
     
+    /** Processa a saída da rede para uma dada entrada. */
+    public double[] processOutput(double[] input) {
+        
+        return null;
+    }
+    
     //getters e setters
     public double[][] getPerceptonMatrix() {
         return perceptonMatrix;
